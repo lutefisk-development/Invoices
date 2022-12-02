@@ -1,25 +1,25 @@
-# Welcome to this Invoices   
-A small program for keeping track of personal invoices.   
-    
-    
-### Commands to run:   
+# Welcome to this Invoices
+A small program for keeping track of personal invoices.
+
+
+### Commands to run:
 composer:
 ```php
 /**
- * Add composer command here 
+ * Add composer command here
  */
 ```
-   
-npm:   
+
+npm:
 ```javascript
 /**
  * Add npm command here
  */
 ```
 
-sql:   
+sql:
 ```sql
 /* Add SQL queries here for setting up DB tables */
-```   
-    
+```
+
 [Link to DB Scheme](https://drawsql.app/teams/pks-team-1/diagrams/invoices)
