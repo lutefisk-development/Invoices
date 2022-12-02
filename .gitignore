@@ -3,3 +3,5 @@
 /vendor
 /node_modules
 /public/dist/*
+/public/.DS_Store
+/public/scss/.DS_Store
