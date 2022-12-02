@@ -1,4 +1,4 @@
-# Welcome to this Invoices
+# Invoices
 A small program for keeping track of personal invoices.
 
 
