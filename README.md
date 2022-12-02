@@ -20,4 +20,6 @@ npm:
 sql:   
 ```sql
 /* Add SQL queries here for setting up DB tables */
-```
+```   
+    
+[Link to DB Scheme](https://drawsql.app/teams/pks-team-1/diagrams/invoices)
