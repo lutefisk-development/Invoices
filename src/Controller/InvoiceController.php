@@ -3,20 +3,26 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Connection\Database;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Twig\Environment;
 
-class InvoiceController
+class InvoiceController extends AbstractController
 {
-    #[Route('/')]
-    public function getInvoices(): Response
+    #[Route('/', name: 'app_homepage')]
+    public function getInvoices(Environment $twig): Response
     {
-        dump([
-            $_ENV['DB_USERNAME'],
-            $_ENV['DB_PASSWORD'],
-            $_ENV['DB_HOST'],
-            $_ENV['DB_NAME']
-        ]);
-        dd('HELLO WORLD');
+        /**
+         * Connect to db:
+         * $conn = Database::connect();
+         */
+
+        return new Response(
+            $twig->render('invoices/home.html.twig', [
+                'heading' => 'Hello World!!'
+            ])
+        );
     }
 }
