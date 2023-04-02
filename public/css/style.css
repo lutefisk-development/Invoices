@@ -1,0 +1,30 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+p,
+li {
+    font-weight: 200;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+#heading {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#invoices {
+    margin-bottom: 3rem;
+}
